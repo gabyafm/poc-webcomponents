@@ -65,9 +65,7 @@ export class PocWebcomponents extends LitElement {
           @click=${this.__decrement}
           ?disabled=${isCounterZero}
           class=${isCounterZero ? 'button-disabled' : ''}
-        >
-          -
-        </button>
+        ></button>
         <span>${this.counter}</span>
         <button @click=${this.__increment}>+</button>
       </div>
